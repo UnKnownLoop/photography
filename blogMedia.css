@@ -1,0 +1,74 @@
+/*mobile view*/
+
+@media screen and (max-width: 768px){
+  * {
+    z-index:0;
+  }
+.about h2 {
+  padding-top: 23%;
+}
+.slider .photos img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+    
+}
+
+  .slider {
+    width: 100%;
+    height:auto;
+    margin: 0 auto 20px;
+    text-align: center;
+    
+  }
+  .history  {
+  height: 20vh auto;
+  width:100%;
+  margin-top:2%;
+  font-size: 1em;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
+  .history-card {
+  display: grid;
+  justify-content: center;
+}
+  
+  .article {
+ padding-bottom: 5%;
+}
+
+#arrow {
+  position: fixed;
+  float: left;
+  left: 5%;
+  top: 50%;
+  color: red;
+  width: 0;
+  z-index:2;
+}
+
+
+.card:hover ,
+.card2:hover , 
+.card3:hover {
+ border-bottom-right-radius: 50px;
+ border-top-left-radius: 50px;
+transform: scale(1.05);
+}
+
+
+.article:hover {
+ border-bottom-right-radius: 0;
+ border-top-left-radius: 0;
+ transform:scale(1.05);
+}
+  
+  
+}
+
+

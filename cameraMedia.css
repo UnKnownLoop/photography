@@ -1,0 +1,62 @@
+@media screen and (max-width: 768px){
+  
+.content h2 {
+  padding-top: 10%;
+}
+.col-1-camera {
+padding: 20px 10px 0px 10px;
+ width: 100%;
+ height: 70vh;
+}
+
+
+.col-1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  max-width: 100%;
+  padding-left:5%;
+  padding-right: 5%;
+}
+
+
+.col-1-camera:hover {
+ border-bottom-right-radius: 50px;
+ border-top-left-radius: 50px;
+ transform: scale(1.05);
+}
+
+
+
+#arrow {
+  position: fixed;
+  float: left;
+  left: 5%;
+  top: 50%;
+  color: red;
+  width: 0;
+  z-index: 2;
+}
+  
+
+.btn-container  {
+  padding-top:10%;
+}
+.price {
+  padding-top: 30%;
+  font-weight: bold;
+  font-size: 1em;
+
+  color: red;
+}
+.descrip {
+  font-size: 1em;
+  color:white;
+  padding-top: 10px;
+  letter-spacing: 1px;
+}
+
+
+
+
+}

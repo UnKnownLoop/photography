@@ -1,0 +1,167 @@
+*  {
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+#introduction {
+  max-width: 100%;
+  background: transparent;
+  padding: 7% 20% 5px 20%;
+}
+.content h2 {
+  text-align: justify;
+  color: red;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.content p {
+  color: white;
+  text-align: justify;
+  font-size: 1em;
+}
+.content h2 {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh auto;
+  width: 100%;
+  padding: 2% 15% 2% 15%;
+}
+.section a {
+  text-decoration:none;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500px;
+  background: rgba(0,0,0,0);
+  border: 2px solid#e2f7fd;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 1.1em 1.1em;
+}
+
+/* tips */
+#tips {
+  height:auto;
+  max-width: 100%;
+  background-color: #212121;
+  padding-bottom: 5%;
+}
+.tips-content {
+  padding: 2% 20% 8% 20%;
+}
+.tips-content h2 {
+  padding-top: 13%;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.tips-content p{
+  color: white;
+  text-align: justify;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+ul li {
+  font-size: 1em;
+  color:white;
+  text-align: justify;
+}
+.see {
+  text-decoration: none;
+  color:red;
+  font-weight: bold;
+
+}
+
+#tricks {
+  min-height: 120vh auto;
+  width: 100%;
+  background-color: #171717;
+  padding-bottom: 5%;
+}
+#youtube {
+  height: 30vh auto;
+  width: 100%;
+  background-color: #212121;
+  padding: 8% 10% 8% 10%;
+}
+
+/* tricks */
+.tricks-content {
+  padding: 2% 0 8% 0;
+}
+.tricks-content h2 {
+  padding-top: 8%;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
+/*tutorial*/
+.tutorial-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 20% 5px 20%;
+}
+.card {
+
+padding: 20px 10px 0px 10px;
+ width: 200px;
+ height: 380px;
+ background-color: #212121;
+ box-shadow: 15px 15px 30px #191919,
+              -15px -15px 30px #292929;
+ transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+              transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+              
+}
+
+.card:hover {
+ border-bottom-right-radius: 50px;
+ border-top-left-radius: 50px;
+ transform: scale(1.5);
+}
+.tutorial-page img {
+  border-radius: 80%;
+    width: 80px;
+    height: 80px;
+}
+img:hover{
+  z-index:9;
+  transform: scale(2);
+  transition: transform ease 1s;
+}
+
+/*yt*/
+.yt-tuts {
+  display: grid;
+  justify-content: center;
+}
+.yt-tuts iframe{
+height: 100vh auto;
+width: 100%;
+ padding-top: 5%;
+}
+#arrow {
+  position: fixed;
+  float: right;
+  right: 5%;
+  top: 50%;
+  color: red;
+  z-index:2;
+}

@@ -1,0 +1,67 @@
+@media screen and (max-width: 768px){ 
+  #introduction {
+    padding-top: 20%;
+  }
+  #youtube {
+    padding-top: 20%;
+  }
+  .card {
+ width: 100%;
+ height: 55vh;
+}
+  .card:hover {
+ border-bottom-right-radius: 50px;
+ border-top-left-radius: 50px;
+ transform: scale(1.1);
+ z-index: 1;
+}
+
+.tutorial-page {
+  display: grid;
+  justify-content: center;
+  margin: 5% 5% 5% 5%;
+}
+  #tricks {
+    height: 100vh auto;
+    width: 100%;
+  }
+  .tricks-content h2 {
+    padding-top: 15%;
+  }
+  .tips-content h2 {
+    padding-top: 17%;
+  }
+  .youtube-content h2{
+padding-top: 15%;
+  }
+  .section a {
+  color: white;
+  font-size: 5px;
+  width: 50%;
+  padding: .8em .8em;
+}
+.tips-content {
+  padding: 2% 10% 8% 10%;
+}
+
+.content q {
+  color: white;
+  font-size: 1em;
+}
+
+#arrow {
+  position: fixed;
+  float: left;
+  left: 5%;
+  top: 50%;
+  color: red;
+  width: 0;
+  z-index:2;
+}
+  
+
+
+
+
+
+}

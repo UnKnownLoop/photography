@@ -1,0 +1,144 @@
+*  {
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color:red;
+  padding-top: 7%;
+}
+form {
+  margin-top: 7%;
+  background-color: #1e1e1e83;
+  border-radius: 25px;
+  height: 100vh auto;
+  width: 100%;
+  justify-content: center;
+  box-shadow:   15px 15px 30px #191919,
+  -15px -15px 30px #292929;
+  padding-top: 50px;
+}
+label {
+  font-size: 15px;
+   color: red;
+}
+input {
+  border:none;
+  border-radius: 10px;
+  width: 50%;
+  height: 10%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#country {
+  border:none;
+  border-radius: 10px;
+  width: 50%;
+  height: 10%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+.inquiry {
+  border-radius: 10px;
+  width: 50%;
+  height: 100px;
+}
+
+.help-form {
+  color: white;
+  font-size: 1em;
+  padding: 5px 20% 5px 20%;
+}
+.hr {
+  width: 400px;
+}
+.content-social-media p{
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+
+
+.social-menu {
+
+  text-align: center;
+
+}
+.social-menu ul {
+    position: absolute;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    display: flex;
+    padding-top:10%;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+.social-menu ul li .fa {
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+    transition: .6s;
+  
+}
+.social-menu ul li a {
+	position: relative;
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 25px;
+	background-color: black;
+	text-align: center;
+	transition: 0.6s;
+	box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.5);
+}
+.socail-menu ul li a:hover {
+	transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover { 
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+
+
+/*feedback*/
+.feedback {
+  padding-top: 10%;
+
+}
+.feedback-content p{
+  padding-top: 3%;
+  color: white;
+  text-align: center;
+  padding-left: 5%;
+  padding-right:5%;
+font-size: 1em;
+}
+.feedback-content a {
+ font-size: 0.8em;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 45px;
+  letter-spacing: 1px;
+  background-color: red;
+  padding: 1.1em 1.1em;
+}
+
+

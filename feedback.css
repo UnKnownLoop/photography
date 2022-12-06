@@ -1,0 +1,66 @@
+* {
+
+  	font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background-color: #171717;
+  
+}
+form {
+  margin: 0 10% 0 10%;
+  background-color: #1e1e1e83;
+  border-radius: 25px;
+  height: 100vh auto;
+  width: 80%;
+  justify-content: center;
+  box-shadow:   15px 15px 30px #191919,
+  -15px -15px 30px #292929;
+  padding-top: 20px;
+}
+label {
+  font-size: 15px;
+   color: red;
+}
+input {
+  border:none;
+  border-radius: 10px;
+  width: 50%;
+  height: 10%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ #inquiry {
+  width: 50%;
+  height: 90px;
+  padding-left: 10px;
+}
+
+#btn {
+  width: 20%;
+  padding-top: 10%;
+  padding-bottom: 3px;
+  
+}
+.btn {
+        margin-top: 5%;
+        margin-left: 10%;
+        background: Rgba(0,0,0,0);
+        border-radius:10px;
+        border: 1px solid white;
+        color: white;
+        width: 15%;
+        height: auto;
+        font-weight: bold;
+      font-size: 1em;
+}
+h2 {
+  color: red;
+  text-align:center;
+  font-size: 60px;
+  padding-top:5%;
+  width: 100%;
+}
+
+

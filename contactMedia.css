@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px){
+  form{
+    width: 100%;
+  }
+  input {
+    width:50%;
+  }
+  .hr {
+    width: 200px;
+  }
+  h2 {
+    margin-top: 20%;
+    text-align: center;
+  }
+  .help-form p {
+    text-align: justify;
+  }
+  
+  
+}

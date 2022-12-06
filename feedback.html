@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="feedback.css">
+  <link rel="stylesheet" type="text/css" href="feedMedia.css">
+  <link rel="stylesheet" type="text/css" href="nav.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+  <script src="feedback.js">
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <title>PhotoG!-Feedback</title>
+</head>
+<script>
+  function getValue() {
+    alert("THANK YOU FOR FILLING UP");
+  }
+</script>
+<body>
+
+
+  <!--nagigation bar buttons-->
+  <h2>FEEDBACK</h2>
+  <form action="https://formspree.io/f/xzbwwvve" method="POST" enctype'multipart/form-data'>
+    <center>
+      <label for="name">NAME </label><br>
+      <input required type="text" name="name" id="name" placeholder="enter your name.........."><br><br>
+
+      <label for="email"><br>EMAIL </label><br>
+      <input type="email" name="email" id="email" placeholder="enter your email.........."><br><br>
+
+      <label for="contact"><br>CONTACT NUMBER </label><br>
+      <input type="number" name="contact" id="contact" placeholder="enter your contact number.........."><br><br>
+
+      <label for="inquiry"><br>FEEDBACK </label><br>
+      <input type="text" name="inquiry" id="inquiry" placeholder="inquiries.........."><br><br>
+
+      <input class="submit" type="submit" value="send">
+
+    </center>
+  </form>
+
+
+  <button class="btn" onclick="history.back()">Back</button>
+</body>
+</html>
